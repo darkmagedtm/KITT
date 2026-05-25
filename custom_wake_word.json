@@ -2,7 +2,7 @@
   "type": "micro",
   "wake_word": "hey kitt",
   "author": "darkmage",
-  "model": "https://raw.githubusercontent.com/darkmagedtm/KITT/main/hey_kitt.tflite",
+  "model": "hhey_kitt.tflite",
   "trained_languages": ["en"],
   "version": 2,
   "micro": {
