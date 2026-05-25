@@ -1,8 +1,9 @@
 {
   "type": "micro",
   "wake_word": "hey kitt",
-  "author": "darkmage",
-  "model": "hhey_kitt.tflite",
+  "author": "darkmagedtm",
+  "website": "https://github.com/darkmagedtm/KITT",
+  "model": "hey_kitt.tflite",
   "trained_languages": ["en"],
   "version": 2,
   "micro": {
