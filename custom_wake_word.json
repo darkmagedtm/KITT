@@ -1,5 +1,5 @@
 {
-  "type": "wake_word",
+  "type": "micro",
   "wake_word": "hey kitt",
   "author": "darkmage",
   "model": "https://raw.githubusercontent.com/darkmagedtm/KITT/main/hey_kitt.tflite",
@@ -7,6 +7,9 @@
   "version": 2,
   "micro": {
     "probability_cutoff": 0.5,
-    "sliding_window_size": 10
+    "sliding_window_size": 10,
+    "feature_step_size": 10,
+    "tensor_arena_size": 30000,
+    "minimum_esphome_version": "2024.7"
   }
 }
